@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>My Portfolio</title>
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+     <!-- Custom CSS -->
+     <link rel="stylesheet" href="css/portfolio.css" />
+</head>
+
+<body>
+
+     <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">My Portfolio</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+               <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+               </ul>
+          </div>
+     </nav>
+
+     <!-- About Section -->
+     <section id="about" class="container mt-5">
+          <h2>About Me</h2>
+          <p>Hi, I'm a passionate Web Developer dedicated to crafting responsive and user-friendly websites.
+            I specialize in HTML, CSS, JavaScript, and Bootstrap to build clean and efficient front-end interfaces.
+            My focus is on creating seamless user experiences across all devices and screen sizes.
+            I enjoy turning ideas into reality through code and creative design.
+            From static landing pages to dynamic, interactive sites, I love the entire development process.
+            I constantly strive to learn and stay updated with the latest trends in web development.
+            Problem-solving and attention to detail are at the core of my coding style.
+            I believe in writing clean, maintainable code for long-term success.
+            Team collaboration and communication are important values I bring to any project.
+            Let’s work together to bring your next web idea to life!</p>
+     </section>
+
+     <!-- Projects Section -->
+     <section id="projects" class="container mt-5">
+          <h2>Projects</h2>
+          <div class="row">
+               <div class="col-md-4 mb-4">
+                    <div class="card">
+                         <img src="https://okcredit-blog-images-prod.storage.googleapis.com/2021/04/ecommerce3-2.jpg" class="card-img-top" alt="E-Commerce Website">
+                         <div class="card-body">
+                              <h5 class="card-title">E-Commerce Website</h5>
+                              <p class="card-text">A full-featured shopping site using HTML, CSS, Bootstrap, and
+                                   JavaScript.</p>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="col-md-4 mb-4">
+                    <div class="card">
+                         <img src="https://enwpgo.files.wordpress.com/2022/12/portfolio-header.jpg?w=1200" class="card-img-top" alt="Portfolio Website">
+                         <div class="card-body">
+                              <h5 class="card-title">Portfolio Website</h5>
+                              <p class="card-text">A clean, responsive portfolio showcasing skills and projects.</p>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="col-md-4 mb-4">
+                    <div class="card">
+                         <img src="https://th.bing.com/th/id/OIP.YmJqwrUtIrUC28qinl6dKQHaHa?w=152&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" class="card-img-top" alt="Weather App">
+                         <div class="card-body">
+                              <h5 class="card-title">Weather App</h5>
+                              <p class="card-text">A weather forecasting app using an API and JavaScript fetch method.
+                              </p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Contact Section -->
+     <section id="contact" class="container mt-5 mb-5">
+          <h2>Contact Me</h2>
+          <form id="contactForm">
+               <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" required />
+               </div>
+               <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" required />
+               </div>
+               <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+               </div>
+               <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+     </section>
+
+     <!-- Footer -->
+     <footer class="text-center bg-dark text-white py-3">
+          <h5>Connect with me</h5>
+          <a href="https://github.com/yourusername" class="text-white mx-2" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/yourusername" class="text-white mx-2" target="_blank">LinkedIn</a>
+          <p class="mb-0 mt-2">&copy; 2025 gnaneshwari</p>
+     </footer>
+
+     <!-- JS Links -->
+     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <script src="js/portfolio.js"></script>
+</body>
+
+</html>
